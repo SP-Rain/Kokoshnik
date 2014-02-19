@@ -1,7 +1,5 @@
 html, body {
-	margin: 0;
-	padding: 0;
-	height: 100%;
+
 }
 
 body {
@@ -10,7 +8,7 @@ body {
 	color: #333333;
 }
 
-.top {
+header {
 	background: url(http://cocochnik.com/img/header-pattern-s.jpg) repeat;
 	padding-top: 80px;
 	height: 240px;
@@ -73,7 +71,7 @@ iframe {
 	padding-bottom: 83px;
 }
 
-.whatuget {
+h2 {
 	text-align: center;
 	font-size: 30px;
 	padding-bottom: 42px;
@@ -197,7 +195,7 @@ iframe {
 	margin-top: 30px;
 }
 
-.footer {
+footer {
 	height: 110px;
 	background-color: #eeeeee;
 	border-top: 2px solid #cccccc;
