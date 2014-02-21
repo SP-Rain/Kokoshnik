@@ -1,6 +1,4 @@
-html, body {
 
-}
 
 body {
 	font-family: 'Open Sans', sans-serif;
@@ -10,23 +8,32 @@ body {
 
 header {
 	background: url(http://cocochnik.com/img/header-pattern-s.jpg) repeat;
-	padding-top: 80px;
+	padding-top: 48px;
+	padding-bottom: 25px;
 	height: 240px;
 }
 
-.attention {
-	font-size: 60px;
-}
 
 .toptext{
-	text-shadow: 0 0 10px black;
+	text-shadow: 0 3px 10px black;
 	text-align: center;
 	color: white;
+	font-size: 21px;
+	line-height: 1.5;
+}
+
+.toptext h1{
+	font-size: 63px;
+	margin-top: 20px;
+	margin-bottom:14px;
+	font-weight: 500;
+	line-height: 1.1;
 }
 
 .upper {
 	text-align: center;
 	text-decoration: none;
+	font-size: 18px;
 	width: 180px;
 	color: #7ca23c;
 	display: block;
@@ -37,6 +44,7 @@ header {
 	border: 2px solid #597d22;
 	height: 30px;
 	padding-top: 10px;
+	box-shadow: 0 5px 10px #597d22;
 }
 
 .wrapper {
@@ -48,7 +56,8 @@ header {
 }
 
 .description {
-	font-size: 20px;
+	font-size: 21px;
+	line-height: 1.5;
 	text-align: center;
 	padding-top: 46px;
 	padding-right: 162px;
@@ -65,25 +74,29 @@ iframe {
 }
 
 .about {
+	font-weight: 200;
+	font-size: 21px;
+	line-height: 1.4;
 	text-align: center;
 	color: #7ca23c;
-	padding: 0 265px;
-	padding-bottom: 83px;
+	padding: 0 260px;
+	padding-bottom: 58px;
 }
 
 h2 {
 	text-align: center;
 	font-size: 30px;
-	padding-bottom: 42px;
+	font-weight: 500;
 }
 
 .in-row {
+	height: 160px;
 	text-align: center;
 	display: inline-block;
-	padding: 0 35px;
+	padding: 0 15px;
 	width: 33%;
 	box-sizing: border-box;
-	height: 140px;
+	font-size: 14px;
 }
 
 .middle {
@@ -116,14 +129,17 @@ h2 {
 
 #table {
 	display: table;
+	border-collapse: collapse;
+	border-style: none;
 	margin:0 auto;
 	width: 945px;
-		border-bottom: 2px solid #dddddd;
+
 }
 
 .row, .firstrow {
 	display: table-row;
-	height: 35px;
+	border-height: 35px;
+	border-bottom: 1px solid #dddddd;
 
 }
 
@@ -142,15 +158,19 @@ h2 {
 	margin: 0 auto;
 }
 
-.special {
+.special1, .special2 {
 	margin-top: 60px;
 	margin-right: 170px;
 	font-size: 14px;
 	padding-bottom: 14px;
 }
 
-.special:before {
-	content: '***'
+.special1 {
+	margin-left: 190px;
+}
+
+.special2 {
+	margin-left:115px;
 }
 
 .order {
