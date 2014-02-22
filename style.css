@@ -138,32 +138,27 @@ h2 {
 	color: #333333;
 }
 
-#table {
-	display: table;
-	border-collapse: collapse;
+table {
 	border-style: none;
 	margin:0 auto;
 	width: 945px;
 
 }
 
-.row, .firstrow {
+tr{
 	line-height: 1.5;
 	font-size: 14px;
-	display: table-row;
 	height: 35px;
 	border-bottom: 1px solid #dddddd;
 }
 
-.firstrow {
-	border-bottom: 2px solid #dddddd;
-	font-weight: bold;
-}
-
-.cell {
-	display: table-cell;
+td {
 	vertical-align: middle;
 	padding: 0 10px;
+}
+
+.coloredrow {
+	background-color: #f9f9f9;
 }
 
 .separator {
